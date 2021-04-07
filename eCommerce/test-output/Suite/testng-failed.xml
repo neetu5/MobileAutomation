@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="eCommerce.TestHomePage">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="testMessage"/>
+        </methods>
+      </class> <!-- eCommerce.TestHomePage -->
+      <class name="eCommerce.TestEmailCheckbox">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="testCheckbox"/>
+        </methods>
+      </class> <!-- eCommerce.TestEmailCheckbox -->
+      <class name="eCommerce.TestVisitWebsite_WebView">
+        <methods>
+          <include name="testWebsite"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- eCommerce.TestVisitWebsite_WebView -->
+      <class name="eCommerce.TestTermAndCondition_LongPress">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="testLongPress"/>
+        </methods>
+      </class> <!-- eCommerce.TestTermAndCondition_LongPress -->
+      <class name="eCommerce.TestTotalAmount">
+        <methods>
+          <include name="testTital"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- eCommerce.TestTotalAmount -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
